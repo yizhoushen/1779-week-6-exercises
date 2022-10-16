@@ -1,6 +1,6 @@
 
 # Week 5 Exercises
-These exercises will help you get familiar with boto3, EC2 and S3 bucket. You will also get experience performing operations on EC2 and S3 bucket using boto3.
+These exercises will help you get familiar with boto3, EC2 and S3 buckets. You will also get experience performing operations on EC2 and S3 bucket using boto3.
 
 ### Set Up Instructions
 
