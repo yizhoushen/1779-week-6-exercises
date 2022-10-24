@@ -14,14 +14,14 @@ These exercises will help you get familiar with boto3, EC2 and S3 buckets. You w
 6. Run the file:
 ``` $ python WriteCredentials.py ```
 7. Check that the credentials were correctly written:
-```$ cat ~/aws/credentials```
+```$ cat ~/.aws/credentials```
 It should look something like (but with your own access keys):
 ```
 [default]
 aws_access_key_id=KDREUFRUSRJEREIROWQEO!DX
 aws_secret_access_key=CDWQ__JXEKJKXSEW/QJKEJRUK@#$UI!@I@U#XD
 ```
-```$ cat ~/aws/config```
+```$ cat ~/.aws/config```
 It should look something like:
 ```
 [default]
