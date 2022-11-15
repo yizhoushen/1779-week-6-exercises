@@ -79,7 +79,11 @@ def s3_delete(bucket_id, key_id):
     s3 = boto3.client('s3')
 
     ######### your code start here #####################
-
+    response = s3.delete_object(
+        Bucket=bucket_id,
+        Key=key_id,
+    )
+    print(response)
     ######### your code ends here ######################
 
     return redirect(url_for('s3_view', id=bucket_id))
